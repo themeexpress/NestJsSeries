@@ -30,3 +30,15 @@ Lets create a module, controller and service named users
 4. To use validator and dto we need following mapped-types
 
 > npm i @nestjs/mapped-types -D
+
+5. To Install Prisma
+
+> npm i prisma -D
+
+To initialite prisma
+
+> npx prisma init
+
+## Migration prisma 
+
+>  npx prisma migrate dev --name init
