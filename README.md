@@ -27,3 +27,6 @@ Lets create a module, controller and service named users
 
 > nest g service users
 
+4. To use validator and dto we need following mapped-types
+
+> npm i @nestjs/mapped-types -D
